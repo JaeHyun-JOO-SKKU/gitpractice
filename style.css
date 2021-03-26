@@ -1,0 +1,40 @@
+a {
+ color : fuchsia;
+ text-decoration: none;
+}
+h1 {
+ background-color: plum;
+ text-align: center;
+ font-size: 50px;
+ border-bottom:1px solid gray;
+ margin: 0;
+ padding: 20px;
+}
+ol {
+ background-color: lavender;
+ border-right: 1px solid gray;
+ width:160px;
+ margin:0;
+ padding: 20px;
+ margin-left: 10px;
+}
+body {
+ margin: 0;
+ margin-right: 10px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+#article{
+  margin-left: 5px;
+}
+@media(max-width:600px){
+  #grid{
+    display:block;
+  }
+  ol{
+    border-right: none;
+  }
+}
+}
